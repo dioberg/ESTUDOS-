@@ -3,14 +3,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;500;600&family=Indie+Flower&family=Shadows+Into+Light&display=swap');
 
 :root{
      --fonte1:Verdana, Geneva, Tahoma, sans-serif;
      --fonte2: 'Indie Flower', cursive;
      --fonte3:'Shadows Into Light', cursive;
-    } 
-
+}
 
 *{
     margin: 0px;
@@ -49,36 +48,50 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 35px;
-    font-family: var(--fonte3);
+    font-family: var(--fonte3));
     font-size: 3vw;
     font-size: border;
     
 }
 
+section p{
+    padding: 1em;
+}
+
 section.imagem{
-    background-image: url(../imagens/foto-002.jpg);
+   
+    background-color: black;
+    color: #FCF3E8;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.234);
     background-attachment: fixed;
-    color: #FCF3E8;
 }
 
-section.imagem2{
-    background-image: url(../imagens/foto-002.jpg);
-    background-size: cover;
-    color: #FCF3E8;
-
-}
-
-section.imagem2 > p{
-    background-color: #2d076b3a;
-    padding: 4px;
-    width: 400px;
-    
-}
+/*
 
 section.imagem > p{
     background-color: #2d076b3a;
     padding: 4px;
     width: 400px;
+    
+}
+*/
+section.imagem > p{
+    display: inline-block;
+    background-color: #2d076b3a;
+    padding: 4px;
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img1{
+    background-image: url('../imagens/foto-002.jpg');
+   
+    background-size: cover;
+
+}
+
+section#img2{
+    background-image: url('../imagens/background002.jpg');
+    background-size: cover;
 }
 
 /* links*/
